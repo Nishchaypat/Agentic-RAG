@@ -1,10 +1,14 @@
 from langflow.load import run_flow_from_json
 from dotenv import load_dotenv
+import asyncio
 
 load_dotenv()
 
 def ask_ai(question, profile):
   TWEAKS = {
+    "AstraVectorStoreComponent": {
+        "user_id": "jWptGwJhkTEpEGGLEYewDYey"
+    },
     "TextInput-GesrA": {
       "input_value": question
     },
@@ -15,7 +19,7 @@ def ask_ai(question, profile):
 
   result = run_flow_from_json(flow="AskAIV2.json",
                               input_value="message",
-                              fallback_to_env_vars=True, # False by default
+                              fallback_to_env_vars=True,
                               tweaks=TWEAKS)
 
   return result[0].ouputs[0].result['text'].data['text']

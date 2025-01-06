@@ -1667,7 +1667,7 @@
               },
               "code": {
                 "type": "code",
-                "required": true,
+                "required": false,
                 "placeholder": "",
                 "list": false,
                 "show": true,
@@ -3741,14 +3741,13 @@
         },
         "id": "reactflow__edge-GoogleGenerativeAIModel-PT2W2{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-PT2W2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-ToolCallingAgent-m9DQn{œfieldNameœ:œllmœ,œidœ:œToolCallingAgent-m9DQnœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
         "animated": false,
-        "className": "",
-        "selected": false
+        "className": ""
       }
     ],
     "viewport": {
-      "x": 337.1958926061931,
-      "y": 129.7994844964459,
-      "zoom": 0.21038125218255752
+      "x": -30.564422944019725,
+      "y": 95.44645944901606,
+      "zoom": 0.33494723907178503
     }
   },
   "description": "",
