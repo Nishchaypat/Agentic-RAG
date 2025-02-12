@@ -74,7 +74,6 @@ def get_macros(profile, goals):
     }
     return run_flow("", tweaks=TWEAKS, application_token=APPLICATION_TOKEN)
 
-
 def run_flow(message: str,
   output_type: str = "chat",
   input_type: str = "chat",
