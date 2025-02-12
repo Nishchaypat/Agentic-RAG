@@ -17,7 +17,7 @@ profile = "Tim; Male; 25 years old; 5'10; 180lbs; Exercise 3 times a week; 1 hou
 
 def dict_to_string(obj, level=0):
     strings = []
-    indent = "  " * level  # Indentation for nested levels
+    indent = "  " * level  #Indentation for nested levels
     
     if isinstance(obj, dict):
         for key, value in obj.items():
