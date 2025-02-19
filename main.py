@@ -193,6 +193,5 @@ def forms():
   notes()
   ask_ai_func()
 
-
 if __name__ == "__main__":
   forms()
