@@ -32,9 +32,9 @@ def dict_to_string(obj, level=0):
             strings.append(f"{indent}Item {idx + 1}: {nested_string}")
     else:
         strings.append(f"{indent}{obj}")
-
-    return ", ".join(strings)
-
+        
+    return ", ".join(strings) 
+    
 def ask_ai(question: str, profile: str) -> dict:
     api_url = f"{BASE_API_URL}/lf/{LANGFLOW_ID}/api/v1/run/{ENDPOINT}"
 
