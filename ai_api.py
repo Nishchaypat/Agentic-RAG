@@ -56,7 +56,7 @@ def ask_ai(question: str, profile: str) -> dict:
         "Authorization": f"Bearer {APPLICATION_TOKEN}",
         "Content-Type": "application/json"
     }
-    # Make the API request
+                                                                            # Make the API request
     response = requests.post(api_url, json=payload, headers=headers)
     response.raise_for_status()  # Raise an exception for HTTP errors
     response = response.json()  # Return the JSON response
