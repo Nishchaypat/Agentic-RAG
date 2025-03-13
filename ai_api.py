@@ -58,7 +58,7 @@ def ask_ai(question: str, profile: str) -> dict:
     }
                                                                             # Make the API request
     response = requests.post(api_url, json=payload, headers=headers)
-    response.raise_for_status()  # Raise an exception for HTTP errors
+    response.raise_for_status()                                             # Raise an exception for HTTP errors
     response = response.json()  # Return the JSON response
     return response['outputs'][0]['outputs'][0]['results']['text']['data']['text']
 
