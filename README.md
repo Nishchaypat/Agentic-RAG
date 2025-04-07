@@ -18,3 +18,8 @@ Streamlit
 Tested the langflow, it works with my gemini api
 
 Made my own version called Athlyze: RAG based Scientific muscle trainer and nutriton planner 
+
+Naive Flow:
+
+
+<img width="1095" alt="navie_flow" src="https://github.com/user-attachments/assets/6c2b0a71-6b1b-4220-9f0b-21aed8f290cb" />
