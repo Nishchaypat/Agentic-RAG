@@ -15,8 +15,6 @@ Astra DB
 
 Streamlit
 
-Tested the langflow, it works with my gemini api
-
 Made my own version called Athlyze: RAG based Scientific muscle trainer and nutriton planner 
 
 Naive Flow:
