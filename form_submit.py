@@ -1,7 +1,6 @@
 from db import personal_data_collection, notes_collection
 from datetime import datetime
 
-
 def update_personal_info(existing, update_type, **kwargs):
     if update_type == "goals":
         existing["goals"] = kwargs.get("goals", [])
