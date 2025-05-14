@@ -5,7 +5,6 @@ from form_submit import update_personal_info, add_note, delete_note
 
 st.title("Personal Fitness Tool")
 
-
 @st.fragment()
 def personal_data_form():
   with st.form("personal_data"):
