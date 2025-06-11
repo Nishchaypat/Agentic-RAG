@@ -25,3 +25,4 @@ for collection in collection_names:
     
 personal_data_collection = db.get_collection("personal_data")
 notes_collection = db.get_collection("notes")
+
